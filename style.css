@@ -1,0 +1,265 @@
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    filter: brightness(0) saturate(100%) invert(37%) sepia(53%) saturate(6017%) hue-rotate(337deg) brightness(100%) contrast(95%);
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.top-container{
+height: 900px;
+}
+
+ul.nav-items>li{
+display: inline;
+list-style: none;
+color: #fff;
+padding: 10px;
+margin-right: 20px;
+}
+.nav-items{
+    margin-right: 190px;
+}
+.fa{
+    margin-left: 5px;
+}
+.header-part{
+    display: flex;
+}
+
+.author-name{
+    color: red;
+}
+
+.position, .author-intro{
+    color: #fff;
+}
+.about{
+    width: 500px;
+    margin-top: 200px;
+}
+
+.top-btn>button, .common-btn{
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 18px;
+    width: 115px;
+    margin-top: 10px;
+}
+
+.left-img>img{
+    height: 600px;
+    margin-left: 40px;
+}
+
+.know-more{
+margin-top: 10px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 40px 30px 40px;
+}
+
+.skill1>img, .skill2>img, .skill3>img{
+    height: 90px;
+}
+
+.skill2>img{
+        filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(100deg) brightness(107%) contrast(101%);
+}
+.skill2{
+    background-color: #ff0000;
+    margin: 25px;
+        width: 300px;
+        height: 350px;
+        padding: 25px;
+}
+
+
+
+.skill1, .skill3{
+        background-color: #1e1e1e;
+        margin: 25px;
+        width: 300px;
+        height: 350px;
+        padding: 25px;
+    
+}
+.skill-head{
+    color: #fff;
+}
+
+.skill-btn{
+    color: #ff0000;
+    background: none;
+    border: none;
+}
+
+.skill-btn-active{
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+.blocks {
+    padding: 0 12%;
+    display: flex;
+    color: #c0c0c0;
+    justify-content: space-between;
+    align-items: center;
+}
+.yrs {
+    text-align: center;
+}
+.yrs h1 {
+    color: #fb3547;
+    font-size: 80px;
+    line-height: 12px;
+}
+.yrs h3 {
+    color: #fff;
+    font-size: 40px;
+}
+.sublocks1, .sublocks2 {
+    width: 350px;
+}
+.block1 {
+    text-align: center;
+    padding: 30px;
+    background-color: #1e1e1e;
+}
+
+.block-red h1 {
+    color: #fb3547;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.block2 {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+
+.block3 {
+    text-align: center;
+    padding: 30px;
+    background-color: #1e1e1e;
+}
+
+.block4 {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #1e1e1e;
+    padding: 30px;
+}
+.projects{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.title{
+    color: #fff;
+}
+.pro-img{
+height: 400px;
+width: 600px;
+border: 1px solid #000;
+    padding: 65px 30px;
+    margin: 25px;
+    background-color: #1e1e1e;
+}
+
+.featured-ones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 30px;
+}
+
+.pro-name>h2{
+    color: #fff;
+}
+
+.pro-name{
+    margin-left: 40px;
+}
+
+.contact-container{
+    display: flex;
+    background-color: #1e1e1e;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 130px;
+    padding: 30px;
+}
+
+.connect{
+    color: #fff;
+}
+
+.connect>p{
+    width: 700px;
+}
+
+.foot-list{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.foot-list>li{
+    margin: 20px;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-color: #1e1e1e;
+}
+
+.social-tabs>img{
+    height: 50px;
+}
+
+
+.foot-logo {
+    filter: brightness(0) saturate(100%) invert(37%) sepia(53%) saturate(6017%) hue-rotate(337deg) brightness(100%) contrast(95%);
+    margin-bottom: 20px;
+}
+
+
+.social-tabs img {
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(100deg) brightness(107%) contrast(101%);
+    /* height: 25px;
+    margin-right: 600px; */
+    margin-left: 30px;
+}
