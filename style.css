@@ -41,6 +41,9 @@ margin-right: 20px;
 .header-part{
     display: flex;
 }
+.humberger{
+    display: none;
+}
 
 .author-name{
     color: red;
@@ -262,4 +265,68 @@ border: 1px solid #000;
     /* height: 25px;
     margin-right: 600px; */
     margin-left: 30px;
+}
+
+/* Mobile responsiveness */
+
+@media (max-width:720px){
+    .humberger{
+        display: block;
+        color: #fff;
+        font-size: 40px;
+    }
+    .nav-items{
+        display: none;
+    }
+
+    .top-container{
+        height: 1000px;
+    }
+
+    .header-part{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about{
+        width: 500px;
+        margin-top: 10px;
+       margin-bottom: 30px;
+    }
+
+    .section-2{
+        height: 2500px;
+    }
+    .skills{
+        flex-direction: column;
+    }
+
+    .section-3{
+        height: 1600px;
+    }
+
+    .blocks{
+        flex-direction: column;
+    }
+
+    .title>p{
+        display: none;
+    }
+
+    .featured-ones{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pro-img{
+        height: 300px;
+        width: 450px;
+            padding: 35px 15px;
+            margin: auto;
+        }
+
+        .contact-container{
+            display: none;
+        }
+        
 }
